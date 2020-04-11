@@ -140,6 +140,39 @@ function Menu() {
             To learn more about Sarah, please see this pdf of her resume.
           </p>
         </div>
+        <div className="menu-container">
+          <p className="menu-header">
+            Contact
+          </p>
+          <div className="menu-item">
+            <a
+              className="menu-link"
+              href="mailto:sarahmasonpeterson@gmail.com"
+              alt="Sarah's Email"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <p>
+                Email
+              </p>
+            </a>
+            <p className="menu-spacing">/</p>
+            <a
+              className="menu-link"
+              href="https://www.linkedin.com/in/sarah-peterson-4444b946/"
+              alt="Sarah's LinkedIn"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <p>
+                LinkedIn
+              </p>
+            </a>
+          </div>
+          <p className="menu-description">
+            Sarah can be reached at the links above.
+          </p>
+        </div>
       </div>
     </div>
   );
