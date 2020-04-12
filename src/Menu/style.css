@@ -5,6 +5,11 @@
   height: 100vh;
   background-color: #F3F2EE;
 }
+@media screen and (min-width : 300px) and (max-width : 500px) {
+  .menu-wrap {
+    height: 100%;
+  }
+}
 .menu-back {
   background-color: transparent;
   border-color: transparent;

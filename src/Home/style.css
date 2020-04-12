@@ -40,12 +40,19 @@
     letter-spacing: -0.5px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
   .home-text {
     font-size: 50px;
     letter-spacing: -0.5px;
   }
 }
+@media screen and (min-width : 300px) and (max-width : 360px)  {
+  .home-text {
+    font-size: 35px;
+    letter-spacing: -0.5px;
+  }
+}
+
 .top {
   margin-top: 0px;
   margin-bottom: 100px;
