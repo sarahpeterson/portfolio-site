@@ -64,17 +64,11 @@ function Menu() {
             Countdown
           </p>
           <div className="menu-item">
-            <a
-              className="menu-link"
-              href="/countdown"
-              alt="Countdown's website"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
+            <Link className="menu-link" to="/countdown">
               <p>
                 Website
               </p>
-            </a>
+            </Link>
             <p className="menu-spacing">/</p>
             <a
               className="menu-link"
@@ -105,6 +99,30 @@ function Menu() {
             how to use hooks in React. The app will countdown the
             days, weeks, months, years, hours and minutes until
             the date that a user chooses.
+          </p>
+        </div>
+        <div className="menu-container">
+          <p className="menu-header">
+            Accomplish Reading
+          </p>
+          <div className="menu-item">
+            <a
+              className="menu-link"
+              href="https://apps.apple.com/us/app/accomplish-reading/id977303261?ign-mpt=uo%3D4"
+              alt="Link to app in Apple App Store"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <p>
+                Apple App Store
+              </p>
+            </a>
+          </div>
+          <p className="menu-description">
+            Sarah was the lead developer and tech lead on the development of this app
+            for a client at her current company. It was built using React Native using persist. The customer
+            did not want a backend or database so the app saves all data locally with persist.
+            The app is available for download for $1.99.
           </p>
         </div>
         <div className="menu-container">
