@@ -54,6 +54,25 @@
   align-items: center;
   flex-direction: column;
 }
+@media screen and (max-width: 350px) {
+  .timer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-flow: wrap;
+    height: 100%;
+    width: 100%;
+  }
+}
+.timer-results {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('./greenBackground.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .timer-instructions {
   position: absolute;
   top: 0;
@@ -66,6 +85,12 @@
   margin-top: 0px;
 }
 @media screen and (max-width: 800px) {
+  .timer-instructions {
+    position: relative;
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 800px) {
   .instructions {
     position: relative;
   }
@@ -75,6 +100,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
+}
+@media screen and (max-width: 800px) {
+  .timer-container {
+    margin: 20px;
+    flex-wrap: wrap;
+  }
 }
 .month {
   justify-content: center;
@@ -141,4 +172,52 @@
   font-size: 15px;
   font-weight: bold;
   margin-top: 30px;
+}
+.margin-fifty {
+  margin-left: 0px;
+}
+@media screen and (min-width: 700px) {
+  .margin-fifty {
+    margin-left: 50px;
+  }
+}
+.margin-hundred {
+  margin-left: 0px;
+}
+@media screen and (min-width: 700px) {
+  .margin-hundred {
+    margin-left: 100px;
+  }
+}
+.margin-one-fifty {
+  margin-left: 0px;
+}
+@media screen and (min-width: 700px) {
+  .margin-one-fifty {
+    margin-left: 150px;
+  }
+}
+.margin-two-hundred {
+  margin-left: 0px;
+}
+@media screen and (min-width: 700px) {
+  .margin-two-hundred {
+    margin-left: 200px;
+  }
+}
+.margin-two-fifty {
+  margin-left: 0px;
+}
+@media screen and (min-width: 700px) {
+  .margin-two-fifty {
+    margin-left: 250px;
+  }
+}
+.margin-three-hundered {
+  margin-left: 0px;
+}
+@media screen and (min-width: 700px) {
+  .margin-three-hundered {
+    margin-left: 300px;
+  }
 }

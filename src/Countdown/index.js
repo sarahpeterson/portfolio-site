@@ -21,31 +21,31 @@ function Countdown() {
         </p>
       </div>
       <div className="count">
-        <p className="down" style={{ marginLeft: '50px' }}>
+        <p className="down margin-fifty">
           COUNT
         </p>
       </div>
-      <div className="count" style={{ marginLeft: '100px' }}>
+      <div className="margin-hundred count">
         <p className="down">
           DOWN
         </p>
       </div>
-      <div className="count" style={{ marginLeft: '150px' }}>
+      <div className="margin-one-fifty count">
         <p className="down">
           COUNT
         </p>
       </div>
-      <div className="count" style={{ marginLeft: '200px' }}>
+      <div className="margin-two-hundred count">
         <p className="down">
           DOWN
         </p>
       </div>
-      <div className="count" style={{ marginLeft: '250px' }}>
+      <div className="margin-two-fifty count">
         <p className="down">
           COUNT
         </p>
       </div>
-      <div className="count" style={{ marginLeft: '300px' }}>
+      <div className="margin-three-hundered count">
         <p className="down">
           DOWN
         </p>

@@ -10,7 +10,7 @@ function ShowTimer(props) {
   const newHours = hours === 1 ? `${hours} hour` : `${hours} hours,`;
   const newMinutes = minutes === 1 ? `and ${minutes} minute left` : `and ${minutes} minutes left`;
   return (
-    <div className="timer">
+    <div className="timer-results">
       <p>There are...</p>
       <p>{newDay}</p>
       <p>{newMonth}</p>
