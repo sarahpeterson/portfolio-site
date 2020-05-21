@@ -14,6 +14,65 @@ function Menu() {
         </Link>
         <div className="menu-container">
           <p className="menu-header">
+            Sarah
+          </p>
+          <div className="menu-item">
+            <a
+              className="menu-link"
+              href="mailto:sarahmasonpeterson@gmail.com"
+              alt="Sarah's Email"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <p>
+                Email
+              </p>
+            </a>
+            <p className="menu-spacing">/</p>
+            <a
+              className="menu-link"
+              href="https://www.linkedin.com/in/sarah-peterson-4444b946/"
+              alt="Sarah's LinkedIn"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <p>
+                LinkedIn
+              </p>
+            </a>
+            <p className="menu-spacing">/</p>
+            <a
+              className="menu-link"
+              href="/SarahPetersonResume.pdf"
+              alt="Sarah's Resume"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <p>
+                Resume
+              </p>
+            </a>
+            <p className="menu-spacing">/</p>
+            <a
+              className="menu-link"
+              href="https://github.com/sarahpeterson"
+              alt="Sarah's GitHub"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <p>
+                GitHub
+              </p>
+            </a>
+          </div>
+          <p className="menu-description">
+            Sarah is a Front End Developer based in Pittsburgh, PA. She is proficient in
+            React, React Native, HTML, CSS, JavaScript, Sketch and UI Design.
+            You can reach Sarah and learn more about her at the links above.
+          </p>
+        </div>
+        <div className="menu-container">
+          <p className="menu-header">
             Potted
           </p>
           <div className="menu-item">
@@ -123,72 +182,6 @@ function Menu() {
             for a client at her current company. It was built using React Native using persist. The customer
             did not want a backend or database so the app saves all data locally with persist.
             The app is available for download for $1.99.
-          </p>
-        </div>
-        <div className="menu-container">
-          <p className="menu-header">
-            Resume
-          </p>
-          <div className="menu-item">
-            <a
-              className="menu-link"
-              href="/SarahPetersonResume.pdf"
-              alt="Sarah's Resume"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <p>
-                Download
-              </p>
-            </a>
-            <p className="menu-spacing">/</p>
-            <a
-              className="menu-link"
-              href="https://github.com/sarahpeterson"
-              alt="Sarah's GitHub"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <p>
-                GitHub
-              </p>
-            </a>
-          </div>
-          <p className="menu-description">
-            To learn more about Sarah, please see this pdf of her resume.
-          </p>
-        </div>
-        <div className="menu-container">
-          <p className="menu-header">
-            Contact
-          </p>
-          <div className="menu-item">
-            <a
-              className="menu-link"
-              href="mailto:sarahmasonpeterson@gmail.com"
-              alt="Sarah's Email"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <p>
-                Email
-              </p>
-            </a>
-            <p className="menu-spacing">/</p>
-            <a
-              className="menu-link"
-              href="https://www.linkedin.com/in/sarah-peterson-4444b946/"
-              alt="Sarah's LinkedIn"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <p>
-                LinkedIn
-              </p>
-            </a>
-          </div>
-          <p className="menu-description">
-            Sarah can be reached at the links above.
           </p>
         </div>
       </div>
