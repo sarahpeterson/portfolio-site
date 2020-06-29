@@ -191,8 +191,8 @@ function Home() {
             </div>
             <p className="menu-description">
               Sarah was the lead developer and tech lead on the development of this app
-              for a client at her current company. It was built using React Native using persist. The customer
-              did not want a backend or database so the app saves all data locally with persist.
+              for a client at her current company. It was built using React Native, Redux and Persist. The customer
+              did not want a backend or database so the app saves all data locally with Persist.
               The app is available for download for $1.99.
             </p>
           </div>
