@@ -4,26 +4,21 @@ import {
   Link
 } from "react-router-dom";
 
+// fix countdown on smaller screen
+// eliminate render-blocking resources - resources are blocking the first paint of yoru page
+// the start url did respond but not via a service worker
+// page is blocked from indexing
+// make the home sections a reusable component
+
 function Home() {
   return (
-    <div className="App">
+    <main className="App">
       <div className="border">
         <p className="home-text bottom">Sarah Peterson,</p>
         <p className="home-text top">Developer</p>
-        {
-          // <div className="menu">
-          //   <Link className="menu-text" to="/menu">MENU</Link>
-          // </div>
-        }
       </div>
       <div>
         <div className="menu-wrap">
-          {
-            // <Link className="menu-back" to="/">
-            //   <img src="/arrow-left-solid.svg" className="back-arrow" alt="back arrow" />
-            //   <p className="back-text">BACK</p>
-            // </Link>
-          }
           <div className="menu-container">
             <p className="menu-header">
               Sarah
@@ -85,6 +80,48 @@ function Home() {
           </div>
           <div className="menu-container">
             <p className="menu-header">
+              Text911
+            </p>
+            <div className="menu-item">
+              <a
+                className="menu-link"
+                href="https://confident-bose-d7d254.netlify.app/"
+                alt="Text911 website"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <p>
+                  Website
+                </p>
+              </a>
+              <p className="menu-spacing">/</p>
+              <a
+                className="menu-link"
+                href="https://github.com/sarahpeterson/text-911-backup"
+                alt="Text911 GitHub repository"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <p>
+                  GitHub
+                </p>
+              </a>
+
+            </div>
+            <p className="menu-description">
+              With a friend, Sarah is working on a Progressive Web App that will
+              give everyone the ability to contact emergency services. In 70% of the
+              United States, you cannot contact 911 through text message. That means, those
+              who are deaf, hard of hearing or who don't speak English cannot easily reach
+              emergency services. A work in progress, the app has an easy to use UI that
+              will collect the necessary information and send it to the correct dispatch
+              center so everyone can get the help they need. The PWA was built in React
+              and uses the MapBox API to find the user's location and the Twilio API to
+              send text messages.
+            </p>
+          </div>
+          <div className="menu-container">
+            <p className="menu-header">
               Potted
             </p>
             <div className="menu-item">
@@ -125,9 +162,9 @@ function Home() {
               </a>
             </div>
             <p className="menu-description">
-              Sarah and her close friend created Potted as a side project
-              to share their knowledge of house plants. Sarah designed the
-              website and built it in React.
+              Potted is a shared passion side project that Sarah is working on
+              with a friend as a way to share their knowledge of house plants.
+              Sarah designed the website and built it in React.
             </p>
           </div>
           <div className="menu-container">
@@ -166,7 +203,7 @@ function Home() {
               </a>
             </div>
             <p className="menu-description">
-              Sarah created a small app to demonstrate her knowledge of
+              This small app demonstrates Sarah's knowledge of
               how to use hooks in React. The app will countdown the
               days, weeks, months, years, hours and minutes until
               the date that a user chooses.
@@ -198,7 +235,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 
