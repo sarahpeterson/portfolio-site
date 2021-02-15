@@ -4,7 +4,6 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Menu from './Menu';
 import Home from './Home';
 import Countdown from './Countdown';
 
@@ -14,7 +13,6 @@ class App extends Component {
       <BrowserRouter>
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/menu" component={Menu} />
           <Route path="/countdown" component={Countdown} />
         </Switch>
       </BrowserRouter>
